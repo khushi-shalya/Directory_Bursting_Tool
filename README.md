@@ -1,7 +1,9 @@
 # Directory_Bursting_Tool
 A multithreaded Python-based Directory & File Discovery Tool for web servers. It helps identify hidden or sensitive files and directories by brute-forcing common paths using a customizable wordlist and extensions.
 
-Features
+
+
+**Features**
 
 Multi-threaded for fast scanning
 
@@ -15,7 +17,9 @@ Configurable timeout and thread count
 
 Helpful for reconnaissance and penetration testing
 
-Requirements
+
+
+**Requirements**
 
 Python 3.x
 
@@ -23,7 +27,9 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-Usage
+
+
+**Usage**
 
 python main.py -u <target_url> -w <wordlist_file> [options]
 
